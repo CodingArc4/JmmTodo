@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<form>
+    <div class="form-group">
+        <label for="inputTitle">Title</label>
+        <input type="text" class="form-control" id="Title" placeholder="Enter Title">
+    </div>
+    <div class="form-group">
+        <label for="inputDescription">Description</label>
+        <input type="text" class="form-control" id="Description" placeholder="Enter Description">
+    </div>
+        <div class="form-group col-md-4">
+            <label for="inputState">Priority</label>
+            <select id="inputState" class="form-control">
+                <option selected>..</option>
+                <option>...</option>
+            </select>
+        </div>
+    <div class="form-group col-md-4">
+        <label for="inputState">Status</label>
+        <select id="inputState" class="form-control">
+            <option selected>...</option>
+            <option>...</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Insert</button>
+</form>
